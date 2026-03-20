@@ -105,6 +105,51 @@ No manual claim is required.
 
 ---
 
+## Development Plan
+## Phase 1 (Weeks 1–2): Ideation & Foundation ✅
+
+ Finalise persona and problem scope (food/quick-commerce delivery)
+ Define parametric triggers and premium model
+ Design Pre → Present → Post three-engine architecture
+ Define Hyperledger audit layer and on-chain event schema
+ Define adversarial defense — four-layer fraud architecture
+ Write README and system design documentation
+ Set up GitHub repo and project board
+ Build basic React PWA shell and routing
+ Create worker onboarding UI mockup (e-Shram UAN flow)
+ Record 2-minute strategy video
+
+## Phase 2 (Weeks 3–4): Core Platform & Automation
+
+ Worker registration + e-Shram UAN authentication flow
+ Insurance policy creation with dynamic weekly premium
+ Integrate IMD + OpenWeatherMap + CPCB/WAQI APIs
+ Build claims management module
+ Implement ML premium scoring (XGBoost + Choquet kernel)
+ Build automated trigger monitoring service (Present-Engine)
+ Implement GPS physics validation (Layer 1 fraud)
+ Build network graph ring detection (Layer 2 fraud)
+ Implement basic Hyperledger Fabric network (3 orgs)
+ Deploy trigger audit log chaincode (Go)
+ Record 2-minute demo video
+
+## Phase 3 (Weeks 5–6): Full Intelligence & Scale
+
+ Pre-Engine: XGBoost + Prophet forecast layer with GDELT integration
+ Present-Engine: LSTM adaptive payout staging
+ Post-Engine: Cox PH recovery predictor + bridge credit automation
+ Full fraud detection stack (Isolation Forest + GNN + CNN-BiLSTM)
+ Per-worker Trust Score and behavioral baseline (Layer 3)
+ Zone-level liquidity circuit breaker (Layer 4)
+ Simulated instant payout via Razorpay test mode
+ Worker dashboard (coverage status, forecast card, payout history, chain explorer QR)
+ Insurer/admin dashboard (loss ratios, zone heatmap, fraud queue, predictive analytics)
+ End-to-end disruption simulation demo (all three phases)
+ Final pitch deck (PDF)
+ Record 5-minute demo video
+
+---
+
 ## Transparency
 
 All major system actions such as predictions, payouts, and decisions can be logged and verified if required.
@@ -130,8 +175,8 @@ GigZo is designed to reduce that impact in a simple and automated way.
 ---
 
 ## Team
-
-[Add your team details]
+Team Camptain: Karthikeyan J V
+Team Members:Madhukanth M , Rahul K, Dheepak Adhithya S, Suganth G
 
 ---
 
